@@ -1,0 +1,66 @@
+h1,h2,h3,span
+{
+  color: coral;
+  font-size: 200%;
+  font-family: Times New Roman;
+}
+body 
+{
+    background: gray;
+}
+.p1
+{
+    color: brown;
+    font-weight: 500;
+    word-spacing: 20px;
+    line-height: 2;
+    letter-spacing: 5px;
+}
+.p2
+{
+    color: deeppink;
+    font-weight: 400;
+    word-spacing: 10px;
+    line-height: 1;
+    letter-spacing: 4px;
+}
+.p3
+{
+    color: darkorange;
+    font-weight: 200;
+    word-spacing: 40px;
+    line-height: 3;
+    letter-spacing: 3px;
+}
+.span1
+{
+ color: darkolivegreen           
+}
+.span2
+{
+ color:darkorchid
+}
+.li1
+{
+    color: darkorange;
+    font-weight: 200;
+    word-spacing: 40px;
+    line-height: 3;
+    letter-spacing: 3px;
+}
+.li2
+{
+    color: darkred;
+    font-weight: 100;
+    word-spacing: 30px;
+    line-height: 4;
+    letter-spacing: 5px;
+}
+.li3
+{
+    color: skyblue;
+    font-weight: 150;
+    word-spacing: 20px;
+    line-height: 2;
+    letter-spacing: 2px;
+}

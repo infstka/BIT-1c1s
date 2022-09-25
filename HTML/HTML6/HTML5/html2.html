@@ -1,0 +1,42 @@
+<HTML>
+<HEAD>
+<TITLE>Моя вторая страница</TITLE>
+   <style>
+    body {
+	background: radial-gradient(green, yellow); /* linear-gradient(to top,gray,red)*/
+	transition-property: background;
+	transition-duration:5s;
+	transition-timing-function: ease;
+	}
+    body:hover {
+	background:gray;
+	color: white;
+	}
+    .turn1:hover { 
+    transform:skewX(30deg); 
+   }
+    .turn2:hover { 
+    transform:skewY(20deg); 
+   }
+    .turn3:hover { 
+    transform:translateX(200px); 
+   }
+    .turn4:hover { 
+    transform:translateY(200px); 
+   }
+    </style>
+</HEAD>
+<BODY>
+    <h1>Моя вторая страница</h1>
+        <h3>HTML</h3>
+       <div style = "background-color:lightgray">
+           <p>HTML- текст представлен в спецификации тегами для форматирования и группировки текста.<br> Теги представляют собой контейнеры для текста и не имеют визуального отображения.<br>Теги для форматирования текста несут смысловую нагрузку и обычно задают для текста, заключенного внутрь, стилевое оформление, например, выделяют текст жирным начертанием или отображают его шрифтом другого семейства.</p>
+           </div>
+        <h2>Рисунок</h2>
+        <a href="html1.html"><img src="123.jpg" class="turn1" ></a>
+        <a href="html1.html"><img src="123.jpg" class="turn2" ></a>
+        <a href="html1.html"><img src="123.jpg" class="turn3" ></a>
+        <a href="html1.html"><img src="123.jpg" class="turn4" ></a>
+        <h3> &copy; ФИО автора</h3>
+</BODY>
+</HTML>
